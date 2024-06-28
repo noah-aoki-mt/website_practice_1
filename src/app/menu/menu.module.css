@@ -1,0 +1,14 @@
+.container{
+    gap: 30px;
+}
+
+.title{
+    text-align: center;
+    font-size: 55px;
+    color: #002200;
+    font-weight: bold;
+}
+
+.image{
+    gap: 20;
+}

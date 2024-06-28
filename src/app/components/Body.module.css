@@ -1,0 +1,47 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 10000px; /* 画像の最大幅を設定 */
+  gap: 10px
+}
+
+.image {
+  top: 600%;
+  max-width: 10000px;  /* 画像を幅いっぱいに表示 */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%; /* 上端から50%の位置に配置 */
+  left: 50%; /* 左端から50%の位置に配置 */
+  transform: translate(-50%, -50%); /* 中心に配置 */
+  text-align: center; /* テキストを中央揃え */
+  background-color: rgba(0, 0, 0, 0.6); /* 背景色（黒色の透明度60%） */
+  color: #ffffff; /* テキストの色を白に設定 */
+  padding: 20px; /* 内側の余白 */
+  border-radius: 8px; /* 角丸 */
+}
+
+.text-overlay h2 {
+  font-size: 2rem; /* 大きな見出しのフォントサイズ */
+  font-family: "Arial Black", Gadget, sans-serif; /* ゴシック体の指定 */
+  margin-bottom: 10px; /* 下のマージン */
+}
+
+.text-overlay p {
+  font-size: 1.2rem; /* 段落のフォントサイズ */
+  line-height: 1.6; /* 行の高さ */
+}
+
+.title{
+  font-size: 1.2rem; /* 段落のフォントサイズ */
+  line-height: 1.6; /* 行の高さ */
+  font-size: 60px;
+  text-align: center; /* テキストを中央揃え */
+  font-weight: bold;
+}
+
+.text{
+  font-size: 30px;
+  text-align: center; /* テキストを中央揃え */
+}

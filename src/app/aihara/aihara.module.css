@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 10000px; /* 画像の最大幅を設定 */
+    gap: 10px
+  }
+
+  .title {
+    color: #002200;
+    font-size: 45px; /* Title font size */
+    font-weight: bold; /* Title font weight */
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .text {
+    font-size: 25px; /* Text font size */
+  }
+
+.image {
+    top: 600%;
+    max-width: 10000px;  /* 画像を幅いっぱいに表示 */
+  }
+
+  .imagefirst {
+    top: 600%;
+    max-width: 8000px;  /* 画像を幅いっぱいに表示 */
+  }

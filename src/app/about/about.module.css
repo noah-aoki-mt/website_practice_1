@@ -1,0 +1,7 @@
+.container{
+    text-align: center;
+    font-size: 30px; /* Corrected unit from 30x to 30px */
+    color: #002200;
+    font-weight: bold;
+    gap: 30px; /* Corrected unit from 30 to 30px */
+}

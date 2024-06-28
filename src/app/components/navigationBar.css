@@ -1,0 +1,34 @@
+.navigation-bar {
+    background-color: #002200;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+  
+  .store-list {
+    display: flex;
+    gap: 20px;
+}
+  .store-name{
+    color: #FFFFFF; /* White text color */
+    font-size: 70px; /* Increased font size */
+    font-weight: bold; /* Bold font weight */
+  }
+
+.store {
+    color: #FFFFFF; /* White text color */
+    font-size: 24px; /* Increased font size */
+    font-weight: bold; /* Bold font weight */
+    padding: 8px 12px; /* Padding */
+    border: 1px solid transparent; /* Transparent border */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.store:hover {
+  border: 5px solid #FFFFFF; /* Light red border */
+  background-color: #FFFFFF; /* Light red background */
+  color: black; /* White text color */
+  text-decoration: underline; /* Underline on hover */
+}
